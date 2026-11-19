@@ -1,0 +1,25 @@
+Name,Description,Section/Column,Start Date,Due Date,Notes
+A1 Prepare project charter,Baseline: Wed 18 Nov to Wed 18 Nov. Predecessors: M1.,WP1 Project management,2026-11-18,2026-11-18,Set dependency in Asana Timeline: M1
+A2 Stakeholder register & engagement plan,Baseline: Wed 18 Nov to Wed 18 Nov. Predecessors: M1.,WP1 Project management,2026-11-18,2026-11-18,Set dependency in Asana Timeline: M1
+"A3 WBS, schedule, budget, risk & comms plans","Baseline: Thu 19 Nov to Thu 19 Nov. Predecessors: A1, A2.",WP1 Project management,2026-11-19,2026-11-19,"Set dependency in Asana Timeline: A1, A2"
+A4 Clinic consultation & requirements,Baseline: Thu 19 Nov to Thu 19 Nov. Predecessors: A2.,WP2 Requirements,2026-11-19,2026-11-19,Set dependency in Asana Timeline: A2
+A5 Requirements spec & client sign-off,Baseline: Fri 20 Nov to Fri 20 Nov. Predecessors: A4.,WP2 Requirements,2026-11-20,2026-11-20,Set dependency in Asana Timeline: A4
+A6 Interface wireframes,Baseline: Sat 21 Nov to Sat 21 Nov. Predecessors: A5.,WP3 System design,2026-11-21,2026-11-21,Set dependency in Asana Timeline: A5
+A7 Database & system design,Baseline: Sat 21 Nov to Sat 21 Nov. Predecessors: A5.,WP3 System design,2026-11-21,2026-11-21,Set dependency in Asana Timeline: A5
+A8 Registration & queue-number module,"Baseline: Sun 22 Nov to Sun 22 Nov. Predecessors: A6, A7.",WP4 Registration & queue numbers,2026-11-22,2026-11-22,"Set dependency in Asana Timeline: A6, A7"
+"A9 Operator dashboard, call-next, status",Baseline: Mon 23 Nov to Tue 24 Nov. Predecessors: A8.,WP5 Operator dashboard,2026-11-23,2026-11-24,Set dependency in Asana Timeline: A8
+A10 Current queue display,Baseline: Wed 25 Nov to Wed 25 Nov. Predecessors: A9.,WP6 Queue display,2026-11-25,2026-11-25,Set dependency in Asana Timeline: A9
+A11 Digital records storage & retrieval,"Baseline: Thu 26 Nov to Thu 26 Nov. Predecessors: A8, A10.",WP7 Digital records,2026-11-26,2026-11-26,"Set dependency in Asana Timeline: A8, A10"
+A12 Testing (30 sample registrations),Baseline: Fri 27 Nov to Fri 27 Nov. Predecessors: A11.,WP8 Testing,2026-11-27,2026-11-27,Set dependency in Asana Timeline: A11
+A13 Deploy at clinic & demonstration,Baseline: Sat 28 Nov to Sat 28 Nov. Predecessors: A12.,WP9 Deployment & demo,2026-11-28,2026-11-28,Set dependency in Asana Timeline: A12
+A14 Stakeholder feedback & acceptance,Baseline: Sun 29 Nov to Sun 29 Nov. Predecessors: A13.,WP10 Acceptance,2026-11-29,2026-11-29,Set dependency in Asana Timeline: A13
+"A15 Handover, expenditure, lessons, archive",Baseline: Mon 30 Nov to Mon 30 Nov. Predecessors: A14.,WP11 Closure,2026-11-30,2026-11-30,Set dependency in Asana Timeline: A14
+M1 MILESTONE: Scope approved,Milestone (0 days),Milestones,2026-11-17,2026-11-17,Mark as milestone in Asana. Predecessors: none
+M2 MILESTONE: Requirements signed off,Milestone (0 days),Milestones,2026-11-20,2026-11-20,Mark as milestone in Asana. Predecessors: A5
+M3 MILESTONE: Design complete,Milestone (0 days),Milestones,2026-11-21,2026-11-21,"Mark as milestone in Asana. Predecessors: A6, A7"
+M4 MILESTONE: Progress update 1,Milestone (0 days),Milestones,2026-11-24,2026-11-24,Mark as milestone in Asana. Predecessors: A9
+M5 MILESTONE: Core system complete,Milestone (0 days),Milestones,2026-11-26,2026-11-26,Mark as milestone in Asana. Predecessors: A11
+M6 MILESTONE: Progress update 2 / testing done,Milestone (0 days),Milestones,2026-11-27,2026-11-27,Mark as milestone in Asana. Predecessors: A12
+M7 MILESTONE: Demonstration,Milestone (0 days),Milestones,2026-11-28,2026-11-28,Mark as milestone in Asana. Predecessors: A13
+M8 MILESTONE: Acceptance obtained,Milestone (0 days),Milestones,2026-11-29,2026-11-29,Mark as milestone in Asana. Predecessors: A14
+M9 MILESTONE: Project closed,Milestone (0 days),Milestones,2026-11-30,2026-11-30,Mark as milestone in Asana. Predecessors: A15
